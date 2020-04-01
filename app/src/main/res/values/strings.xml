@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Court Counter</string>
+    <string name="team_a">TEAM A</string>
+    <string name="team_b">TEAM B</string>
+    <string name="p2">+2 POINTS</string>
+    <string name="p3">+3 POINTS</string>
+    <string name="free">FREE THROW</string>
+    <string name="reset">RESET</string>
+    <string name="score_a">0</string>
+    <string name="score_b">0</string>
+    <string name="condes">The photo has a basketball on the basketball court .</string>
 </resources>
