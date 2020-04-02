@@ -45,18 +45,17 @@
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/tvsba"
+                android:id="@+id/tv_sb_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:text="@string/score_a"
-                android:textSize="80sp"
-                android:textColor="@color/Black"
-                android:padding="10dp"
                 android:background="@color/White"
-                />
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="10dp"
+                android:text="@string/score_a"
+                android:textColor="@color/Black"
+                android:textSize="80sp" />
 
             <Button
                 android:id="@+id/btna1"
@@ -90,7 +89,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                android:onClick="freethrowa"
+                android:onClick="freeThrow_a"
                 android:text="@string/free"
                 android:textSize="15sp" />
 
@@ -166,7 +165,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                android:onClick="freethrowb"
+                android:onClick="freeThrow_b"
                 android:text="@string/free"
                 android:textSize="15sp" />
 

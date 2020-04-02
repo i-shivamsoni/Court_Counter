@@ -15,11 +15,11 @@
         android:src="@drawable/basketball" />
 
     <LinearLayout
-        android:id="@+id/Anchor"
+        android:id="@+id/Layout_Anchor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/btn"
-        android:layout_alignTop="@id/btn"
+        android:layout_above="@id/btn_reset"
+        android:layout_alignTop="@id/btn_reset"
         android:layout_alignParentTop="true"
         android:orientation="horizontal"
 
@@ -45,7 +45,7 @@
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/tvsba"
+                android:id="@+id/tv_sb_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -58,7 +58,7 @@
                 android:textSize="80sp" />
 
             <Button
-                android:id="@+id/btna1"
+                android:id="@+id/btn_a_1"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
@@ -70,7 +70,7 @@
                 android:textSize="15sp" />
 
             <Button
-                android:id="@+id/btna2"
+                android:id="@+id/btn_a_2"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
@@ -82,14 +82,14 @@
                 android:textSize="15sp" />
 
             <Button
-                android:id="@+id/btna3"
+                android:id="@+id/btn_a_3"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                android:onClick="freethrowa"
+                android:onClick="freeThrow_a"
                 android:text="@string/free"
                 android:textSize="15sp" />
 
@@ -97,7 +97,7 @@
 
         <View
             android:layout_width="2dp"
-            android:layout_height="450dp"
+            android:layout_height="420dp"
             android:layout_marginTop="16dp"
             android:background="@color/Grey" />
 
@@ -121,7 +121,7 @@
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/scoreboardB"
+                android:id="@+id/tv_sb_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -134,7 +134,7 @@
                 android:textSize="80sp" />
 
             <Button
-                android:id="@+id/btnb1"
+                android:id="@+id/btn_b_1"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
@@ -146,7 +146,7 @@
                 android:textSize="15sp" />
 
             <Button
-                android:id="@+id/btnb2"
+                android:id="@+id/btn_b_2"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
@@ -158,14 +158,14 @@
                 android:textSize="15sp" />
 
             <Button
-                android:id="@+id/btnb3"
+                android:id="@+id/btn_b_3"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="20dp"
-                android:onClick="freethrowb"
+                android:onClick="freeThrow_b"
                 android:text="@string/free"
                 android:textSize="15sp" />
 
@@ -175,7 +175,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn_reset"
         android:layout_width="96dp"
         android:layout_height="48dp"
         android:layout_alignParentBottom="true"
